@@ -1,0 +1,98 @@
+.icon-card{
+   font-size: 2.5rem;
+   margin-bottom: 0.3em;
+}
+
+#card-title{
+   font-size: 1.3rem;
+}
+
+.card-para{
+   margin-top: 0;
+}
+
+#even-card{
+   text-align: right;
+}
+
+.sub-card{
+   background-color: #ededed;
+   padding: 1.5em 2em;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.cards{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 4em;
+   padding: 0 20em;
+}
+
+@media (max-width:1440px) {
+  .cards{
+    padding: 0 15em;
+  }
+}
+
+@media (max-width:1192px) {
+  .cards{
+    padding: 0 12em;
+  }
+}
+
+@media (max-width:1050px) {
+  .cards{
+    padding: 0 08em;
+  }
+}
+
+@media (max-width:968px) {
+  .cards{
+    padding: 0 04em;
+  }
+}
+
+@media (max-width:708px) {
+  .cards{
+    display: block;
+    padding: 0 7em;
+    margin: 5em 0;
+  }
+
+  .sub-card{
+     margin-bottom: 2.3em;
+  }
+}
+
+@media (max-width:496px) {
+  .icon-card{
+     font-size: 2rem;
+  }
+
+  #card-title{
+     font-size: 1.1rem;
+  }
+
+  .card-para{
+     font-size: 0.8rem;
+  }
+}
+
+@media (max-width:460px) {
+  .cards{
+     padding: 0 5em;
+  }
+}
+
+@media (max-width:390px) {
+  .cards{
+     padding: 0 3em;
+  }
+}
+
+@media (max-width:329px) {
+  .cards{
+     padding: 0 1.5em;
+  }
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Build a professional website</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="features.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/e11fc3e4c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!--Navbar-->
+   <nav id="navB">
+      <div class="logo">
+         <a href="index.html"><img id="nav-logo" src="Logo 01.png" alt="Company logo"></a>         
+      </div>
+      <!-- Hamburger -->
+      <div id="myNav" class="overlay">
+      
+         <!-- Button to close the overlay navigation -->
+         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" id="nav-close">&times;</a>
+      
+         <!-- Overlay content -->
+         <div class="overlay-content">
+            <a id="nav-link" href="#features">Features</a>
+            <a id="nav-link" href="#">Blog</a>
+            <a id="nav-link" href="#">Portfolio</a>
+            <a id="nav-link" href="#">About</a>
+            <a id="nav-link" href="#">Contact</a>
+         </div>
+      </div>
+      
+      <!-- Use any element to open/show the overlay navigation menu -->
+      <span id="ham" onclick="openNav()"><i class="fas fa-bars fa-2x"></i></span>
+   </nav>  
+   
+   <!--Home Banner-->
+   <section id="banner">
+      <div class="banner-logo">
+         <img id="banner-logo" src="Logo 02.png" alt="Main company logo with blue and black colors">
+      </div>
+      <p class="banner-para">We help businesses to scale with lead gen websites</p>
+   </section>
+
+   <!--Features Section-->
+   <section id="features">
+      <div class="cards">
+
+         <div class="sub-card">
+            <div class="icon-card">
+               <i class="fas fa-chart-line"></i>
+            </div>
+            <span id="card-title">SEO</span>    
+            <p class="card-para">Built with SEO mind</p>  
+         </div>
+
+         <div class="sub-card" id="even-card">
+            <div class="icon-card">
+               <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <span id="card-title">Clean Design</span>
+            <p class="card-para">Best first impressions</p>
+         </div>
+
+         <div class="sub-card">
+            <div class="icon-card">
+               <i class="fas fa-hand-holding-heart"></i>
+            </div>
+            <span id="card-title">Support</span>
+            <p class="card-para">24x7 Customer support</p>
+         </div>
+
+         <div class="sub-card" id="even-card">
+            <div class="icon-card">
+               <i class="fas fa-poll"></i>
+            </div>
+            <span id="card-title">Results</span>
+            <p class="card-para">Increased customer base</p>
+         </div>
+
+      </div>
+   </section>
+
+   <script src="app.js"></script>
+</body>
+</html>
