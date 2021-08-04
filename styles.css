@@ -8,6 +8,10 @@ html{
   font-family: 'PT Sans', sans-serif;
 }
 
+body, html {
+  height: 100%;
+}
+
 a{
   text-decoration: none;
   color: inherit;
@@ -170,4 +174,22 @@ a{
   .banner-para{
     padding: 0 2.5em;
   }
+}
+
+/*Custom Scroll Bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #152D54;
+  border-radius: 10px;
 }

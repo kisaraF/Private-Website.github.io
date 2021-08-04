@@ -1,0 +1,42 @@
+#about{
+   background-image: url("About-min.jpg");
+
+   height: 50%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#about-title{
+   color: #fff;
+   padding: 2em 0 0 0;
+}
+
+.about-para{
+   text-align: left;
+   color: #fff;
+   font-size: 1.3rem;
+   padding: 0 10em;
+}
+
+@media (max-width:768px) {
+   #about{
+      height: 100%;
+   }
+
+   .about-para{
+      padding: 0 7em;
+   }
+}
+
+@media (max-width:546px) {
+   .about-para{
+      padding: 0 5em;
+   }
+}
+
+@media (max-width:434px) {
+   .about-para{
+      padding: 0 2em;
+   }
+}
