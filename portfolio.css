@@ -23,3 +23,62 @@
      text-align: center;
   }
 }
+
+.card-text, .card2-text, .card3-text{
+   color: #fff;
+   text-align: center;
+   position: absolute;
+}
+
+#sec, #first{
+   position: relative;
+}
+
+.card-text{   
+   bottom: 50%;
+   left: 23%;
+}
+
+.card2-text, .card3-text{   
+   top: 28%;
+   left: 38%;
+}
+
+.card-title{
+   font-size: 1.2rem;
+}
+
+#prvw-btn{
+   margin-top: 1em;
+   padding: 0.3em 0.55em;
+   border: 1px solid #fff;
+   background-color: Transparent;
+   color: #fff;
+}
+
+#prvw-btn:hover{
+   transition: all 0.3s ease-in-out;
+   border: 1px solid #000;
+   background-color: #000;
+   cursor: pointer;
+}
+
+@media (max-width:667px){
+   .card-text{ 
+      left: 39%;
+   }
+
+.card2-text, .card3-text{  
+      left: 42%;
+   }
+}
+
+@media (max-width:414px){
+   .card-text{ 
+      left: 29%;
+   }
+
+.card2-text, .card3-text{  
+      left: 38%;
+   }
+}

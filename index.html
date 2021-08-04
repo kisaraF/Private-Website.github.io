@@ -4,12 +4,14 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Build a professional website</title>
+   <title>Build a sales generation website</title>
    <link rel="stylesheet" href="styles.css">
    <link rel="stylesheet" href="features.css">
    <link rel="stylesheet" href="blog.css">
    <link rel="stylesheet" href="portfolio.css">
    <link rel="stylesheet" href="about.css">
+   <link rel="stylesheet" href="contact.css">
+   <link rel="stylesheet" href="footer.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto&display=swap" rel="stylesheet">
@@ -32,8 +34,8 @@
             <a id="nav-link" href="#features">Features</a>
             <a id="nav-link" href="#blog">Blog</a>
             <a id="nav-link" href="#port">Portfolio</a>
-            <a id="nav-link" href="#">About</a>
-            <a id="nav-link" href="#">Contact</a>
+            <a id="nav-link" href="#about">About</a>
+            <a id="nav-link" href="#contact">Contact</a>
          </div>
       </div>
       
@@ -131,31 +133,77 @@
       
    </section>
 
+   <!--Portfolio-->
    <section id="port">
       <h2 class="sub-heading">Portfolio</h2>
       <div class="port-master-grid">
          <div class="port-card" id="first">
             <img id="port-img" src="testi 01.jpg" alt="Fitness trainer with kettlebell facing backwards. (Image source: 'Unsplash.com'">
+            <div class="card-text">
+               <div class="card-title">Personal Trainer</div>               
+               <button id="prvw-btn"><a href="https://kisaraf.github.io/prashank-tiwaree-fitness.trainer/" target="_blank">Preview</a></button>
+            </div>
          </div>
 
          <div class="port-sub-grid">
             <div class="port-card" id="sec">
                <img id="port-img" src="testi 02.jpg"
                   alt="A photo frame hanging in empty white wall. (Image source: 'Unsplash.com'">
+                  <div class="card2-text">
+                     <div class="card-title">Photolio</div>                     
+                     <button id="prvw-btn"><a href="https://kisaraf.github.io/BnWPhotolio.github.io/" target="_blank">Preview</a></button>
+                  </div>
             </div>            
             <div class="port-card" id="sec">
                <img id="port-img" src="testi 03.jpg"
                   alt="Female fashion influencer wearing fancy sunglasses. (Image source: 'Unsplash.com'">
+                  <div class="card3-text">
+                     <div class="card-title">Influencer</div>                     
+                     <button id="prvw-btn"><a href="https://kisaraf.github.io/sean-port.github.io/" target="_blank">Preview</a></button>
+                  </div>
             </div>
          </div>      
       </div>
    </section>
 
+   <!--About Section-->
    <section id="about">
       <h2 class="sub-heading" id="about-title">About Us</h2>
       <p class="about-para">We are a new founded boutique web design firm. We primarily focus on bringing out measurable results for your business
-      with the power of websites</p>
+      with the power of websites </p>
    </section>
+
+   <!--Contact section-->
+   <section id="contact">
+      <h2 class="sub-heading" id="contact-title">Let's talk 1-1</h2>
+      <div class="master-contact-grid">
+         <h3 class="contact-para">30 minutes is all it takes, <br> to 2X your customer base</h3>
+         <button id="contact-btn"><a href="https://calendly.com/webkittek/free-consultation-call">BOOK NOW</a></button>
+      </div>
+   </section>
+   <!--
+   <footer id="foot">
+      <div class="contact-info">
+         <h4 class="footer-title">Contact</h4>
+         <div class="sub-con-info">
+            <i id="foot-con" class="fas fa-phone-alt"></i>
+            <span class="contact-text">(+94)-75-277-3615</span>            
+         </div>
+         <div class="sub-con-info">
+            <i id="foot-con" class="fas fa-envelope"></i>
+            <span class="contact-text">webkittechnologies@gmail.com</span>            
+         </div>
+      </div>
+      
+      <div class="social-media">
+         <i id="socialm" class="fab fa-instagram"></i>
+         <i id="socialm" class="fab fa-linkedin"></i>
+         <img id="top-btn" src="Button Element.png" alt="Custom made button for auto scrolling">
+         </div>
+      </div>
+      
+               
+   </footer>-->
 
    <script src="app.js"></script>
 </body>

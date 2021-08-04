@@ -26,6 +26,8 @@ a{
 #navB{
   display: flex;
   padding: 1em;
+  position: sticky;
+  top: 0;
 }
 
 #ham{
