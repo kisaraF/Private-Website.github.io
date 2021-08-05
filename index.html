@@ -5,6 +5,9 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Build a sales generation website</title>
+   <meta name="description"
+      content="Get your small business a website which can convert web page visitors to potential buyers(leads) with us. We help you to use website as your most powerful digital sales generator.">
+   <link rel="shortcut icon" type="image/ico" href="Favicon Original.ico">
    <link rel="stylesheet" href="styles.css">
    <link rel="stylesheet" href="features.css">
    <link rel="stylesheet" href="blog.css">
@@ -181,6 +184,34 @@
          <button id="contact-btn"><a href="https://calendly.com/webkittek/free-consultation-call">BOOK NOW</a></button>
       </div>
    </section>
+
+   <!-- Messenger Chat plugin Code -->
+   <div id="fb-root"></div>
+   
+   <!-- Your Chat plugin code -->
+   <div id="fb-customer-chat" class="fb-customerchat">
+   </div>
+   
+   <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112935947679328");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function () {
+         FB.init({
+            xfbml: true,
+            version: 'v11.0'
+         });
+      };
+
+      (function (d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+         fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+   </script>
    
    <footer id="foot">
       <div class="master-first">
@@ -202,7 +233,8 @@
             <i id="socialm" class="fab fa-linkedin"></i>
          </div>
          </div>
-      </div>   
+      </div> 
+        
       
       <div class="top-btn">
          <a href="#navB">
